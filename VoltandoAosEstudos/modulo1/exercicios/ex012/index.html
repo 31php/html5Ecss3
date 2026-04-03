@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <ins>
+        <H1>Imagens Dinâmicas</H1>
+    </ins>
+
+    <p>Tente abrir esse site em vários dispositivos diferentes, ou simplesmente aumente
+       ou diminua o tamanho do seu navegador </p>
+    
+       <picture>
+
+        <source media="(max-width: 400px)" srcset="imagens/guitarraPreta300px.jpeg" type="image/jpeg">
+
+        <source media="(max-width: 500px)" srcset="imagens/guitarraPreta400px.jpeg" type="image/jpeg">
+
+        <source media="(max-width: 600px)" srcset="imagens/guitarraPreta500px.jpeg" type="image/jpeg">
+
+        <source media="(max-width: 700px)" srcset="imagens/guitarraPreta600px.jpeg" type="image/jpeg">
+
+      <source media="(max-width: 1000px)" srcset="imagens/guitarraPreta700px.jpeg" type="image/jpeg">
+
+        <img src="imagens/guitarraPreta700px.jpeg" alt="imagem flexivel">
+       </picture>
+</body>
+</html>
