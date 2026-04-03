@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+    <link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <h1>Imagem Flexível</h1>
+        
+        <picture>
+            
+            <source media="(max-width: 500px)" srcset="imagensNovas/guitarraMarron400px.jpeg" type="image/jpeg">
+
+            <source media="(max-width: 600px)" srcset="imagensNovas/guitarraMarron500px.jpeg" type="image/jpeg">
+
+            <source media="(max-width: 700px)" srcset="imagensNovas/guitarraMarron600px.jpeg" type="image/jpeg">
+
+            <source media="(max-width: 800px)" srcset="imagensNovas/guitarraMarron700px.jpeg" type="image/jpeg">
+
+            <source media="(max-width: 900px)" srcset="imagensNovas/guitarraMarron800px.jpeg" type="image/jpeg">
+
+            <img src="imagensNovas/guitarraMarron900px.jpeg" alt="guitarra les paul">
+        </picture>
+    </main>
+    
+</body>
+</html>
