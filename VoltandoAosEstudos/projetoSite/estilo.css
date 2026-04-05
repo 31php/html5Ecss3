@@ -10,9 +10,13 @@ main{
     background-color: white;
     padding: 5px 5px 5px 5px;
     margin: auto;
+    width: 900px;
 }
 h1{
     font-style: italic;
     text-decoration: underline;
     text-align: center;
+};
+p{
+    text-align: justify
 }
