@@ -22,3 +22,6 @@ h1{
 h2{
     text-decoration: underline;
 }
+p{
+    font-style: italic;
+}
