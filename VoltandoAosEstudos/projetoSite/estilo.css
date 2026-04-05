@@ -11,13 +11,15 @@ main{
     padding: 5px 5px 5px 5px;
     margin: auto;
     width: 900px;
-    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(201, 196, 196, 0.753);
 }
 h1{
     font-style: italic;
     text-decoration: underline;
     text-align: center;
-};
+    box-shadow: 3px 3px 3px gray;
+}
 p{
-    text-align: justify
+    text-align: justify;
 }
