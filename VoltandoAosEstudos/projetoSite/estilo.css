@@ -8,9 +8,11 @@ body{
 }
 main{
     background-color: white;
-    border-radius: auto;
+    padding: 5px 5px 5px 5px;
+    margin: auto;
 }
 h1{
     font-style: italic;
     text-decoration: underline;
+    text-align: center;
 }
