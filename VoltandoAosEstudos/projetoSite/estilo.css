@@ -14,3 +14,7 @@ main{
     padding: 10px;
     box-shadow: 3px 3px 3px rgba(187, 181, 181, 0.856);
 }
+h1{
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(204, 192, 192, 0.788);
+}
