@@ -18,11 +18,17 @@ main{
 }
 h1{
     font-family: 'Playwrite US Modern';
+    font-style: italic;
     text-align: center;
+    text-decoration: underline;
+
+    text-shadow: 2px 2px 2px black;
 }
 h2{
     font-family: 'Playwrite US Modern';
+    font-style: italic;
     text-align: center;
+    text-decoration: underline;
 }
 p{
     font-family: 'Edu TAS Beginner';
