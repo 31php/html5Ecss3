@@ -7,7 +7,7 @@ body{
     background-image: linear-gradient(to right,black,silver,white);
 }
 main{
-    background-color: white;
+    background-color:rgba(245, 234, 234, 0.863);
     border-radius: 5px;
     margin: auto;
     width: 600px;
