@@ -9,7 +9,9 @@ h1{
 
 }
 h1#principal{
+    background-color:rgba(130, 190, 170, 0.849);
     text-align: center;
+    text-shadow:3px 3px 3px  rgba(67, 131, 131, 0.808);
 }
 h2{
     color: rgba(67, 131, 131, 0.808);
