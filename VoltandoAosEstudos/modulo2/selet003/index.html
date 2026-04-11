@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title> 
+
+    <style>
+        body{
+            font: italic normal 16px arial;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: yellowgreen;
+            text-decoration: underline;
+        }
+        a:active{
+            color:rgb(182, 7, 138)
+        }
+        a::after{
+            content: ' link';
+            text-decoration: none;
+            font-weight: normal;
+            color: silver;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Personalizando links</h1>
+
+        <ul>
+            <li><a href="https://ge.globo.com/" target="_blank"  "Globo Esporte">Globo Esporte</a></li>
+            <li><a href="https://github.com/31php" target="_blank" title="github">github</a></li>
+        </ul>
+    </main>
+</body>
+</html>
