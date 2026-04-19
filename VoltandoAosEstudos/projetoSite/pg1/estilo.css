@@ -33,3 +33,12 @@ ul > li > a:hover{
     color: red;
 
 }
+a:visited{
+    color: lightgreen;
+}
+a::before{
+    content: '⇒ ';
+}
+a::after{
+    content: ' ⇐';
+}
