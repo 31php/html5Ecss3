@@ -6,6 +6,9 @@
 body{
     background-image: linear-gradient(to right,black,silver,white);
 }
+header > nav > a:hover{
+    color: green;
+}
 main{
     background-color:rgba(245, 234, 234, 0.863);
     border-radius: 5px;
@@ -13,12 +16,18 @@ main{
     width: 600px;
     padding: 10px;
     box-shadow: 3px 3px 3px rgba(187, 181, 181, 0.856);
+    margin-top: 25px;
 }
 h1{
+    background-color: rgba(248, 247, 247, 0.74);
+    height: 60px; 
+    padding: 17px;
+
     font: italic bolder 30px serif;
     text-align: center;
     text-decoration: underline;
     text-shadow: 3px 3px 3px rgba(204, 192, 192, 0.788);
+    
 }
 h2{
     font-size: 20px;
@@ -29,16 +38,13 @@ p{
     text-align: justify;
     text-indent: 30px;
 }
-ul > li > a:hover{
-    color: red;
-
-}
 a:visited{
     color: lightgreen;
 }
-a::before{
-    content: '⇒ ';
+footer{
+    margin-top: 20px; 
 }
-a::after{
-    content: ' ⇐';
+footer > p{
+    text-align: center;
+    text-decoration: underline;
 }
