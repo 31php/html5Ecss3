@@ -8,9 +8,13 @@ body{
     margin: 0px;
 }
 header > h1{
+    background-color: rgba(241, 225, 225, 0.815);
+    padding: 10px;
+    margin: auto;
     text-align: center;
     text-decoration: underline;
     text-shadow: 5px gray;
+    box-shadow: 4px 4px 4px rgba(109, 104, 104, 0.349);
 }
 header > nav{
     background-image: linear-gradient(to right,silver,white);
@@ -67,4 +71,7 @@ footer{
     padding: 5px;
     margin: 0px;   
     font-weight: bold; 
+}
+footer > p{
+    margin: 0px;
 }
