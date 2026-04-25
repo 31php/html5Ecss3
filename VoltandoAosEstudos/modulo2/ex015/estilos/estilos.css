@@ -30,10 +30,10 @@ body{
 }
 
 header{
-        background-color: var(--cor4);
-        min-height: 150px;
-        text-align: center;
-        padding-top: 40px;
+    background-color: var(--cor4);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header > h1{
@@ -52,6 +52,12 @@ header > p{
 
 nav{
     background-color: var(--cor5);
+    padding: 8px;
+    
+}
+a{
+    color: white;
+    margin-right: 5px;
 }
 
 main{
@@ -76,7 +82,7 @@ main > article > h2{
     font-family: var(--font-Android);
 }
 
-main  img{
+main img{
     width: 100%;
 }
 main img.pequena{
